@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.function.BiFunction;
 
 public class Main {
     public static ArrayList <Napoje> napoj = new ArrayList<>();
@@ -7,6 +8,9 @@ public class Main {
     public static void  main(String[] args){
         pij();
         sortowanieNazwa();
+
+        //10
+        BiFunction<Integer, Integer, Integer> func = (x1, x2) -> x1 * x2;
 
         napoj.add(new Colka("colka zero",""));
         napoj.add(new Kompot("kompot wisniowy","wisnia"));
@@ -30,4 +34,13 @@ public class Main {
             System.out.println(napoje.getOho());
         }
     }
+    public static void kochprog(){
+        KochajacyProgramowanie taknielubie = new KochajacyProgramowanie() {
+            @Override
+            public String programuj() {
+                return "programuj()";
+            }
+        };
+    }
+
 }
