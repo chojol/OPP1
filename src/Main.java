@@ -8,7 +8,7 @@ public class Main {
     public static void  main(String[] args){
         pij();
         sortowanieNazwa();
-
+//
         //10
         BiFunction<Integer, Integer, Integer> func = (x1, x2) -> x1 * x2;
 
